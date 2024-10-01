@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#p {
+    margin: 0px;
+}
+
+.walletbody {
+    overflow-x: hidden;
+    /* Prevent body content from overflowing */
+    margin: 0;
+    /* Remove default margin */
+    font-family: Montserrat, sans-serif;
+    background-color: black;
+    /* background-image: url(/images/wallet.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 10px;    	
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.search-container input[type="text"] {
+    
+    padding-right: 30px; /* To account for the search icon inside the input */
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.search-container i {
+    position: relative;
+    left: -30px;
+    color: black;
+    top: 4px;
+    cursor: pointer;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: wheat;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: auto;
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.action-container {
+    color: rgb(243, 242, 242);
+    text-align: center;
+}
+
+.action-container button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.action-container button i {
+    font-size: 30px;
+    margin: 0;
+}
+
+.action-container p {
+    margin: 0;
+    font-size: 10px;
+}
+
+
+.box {
+    background-color: rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: opx; 
+    padding: 0px; 
+    border: none;
+}
+
+.box:hover {
+    background-color: rgb(235, 6, 6);
+    color: white;
+}
+
+
+.box a {
+    text-decoration: none;
+    color: black;
+}
+
+.custom-video {
+    width: 90%;
+    height: 370px;
+    margin: 0% 5%;
+    background-image: url('/wallpaperflare.com_wallpaper (3).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid wheat;
+}
+
+
+.container1 {
+    margin: 6px 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inner-container {
+    width: 600px;
+    height: auto;
+    display: block;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2%;
+}
+
+.inner-container h1 {
+    font-size: 16px;
+    color: white;
+    margin: 0;
+}
+
+
+.rating-container {
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20px;
+    margin: 0;
+}
+
+.rating-container i {
+    color: yellow;
+    font-size: 9px;
+    vertical-align: top;
+    margin-right: 2px;
+}
+
+.rating-container p {
+    margin-right: 2px;
+}
+
+.rating-container .year,
+.rating-container .genre {
+    background-color: rgb(50, 50, 50);
+    border-radius: 20px;
+    font-size: 9px;
+    width: 30px;
+    text-align: center;
+    padding: 2px;
+    margin-right: 2px;
+}
+
+
+.story-container {
+    width: 85%;
+    color: white;
+}
+
+.story-container p {
+    font-size: 10px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.story-container p br {
+    margin-top: 10px;
+}
+
+
+.download {
+    color: white;
+    color: rgb(243, 242, 242);
+    text-align: center;
+}
+
+.download-button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.download-button i {
+    font-size: 30px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.dropbtn {
+    cursor: pointer;
+}
+
+
+.download:hover,
+.download:focus {
+    color: red;
+}
+
+.dropbtn {
+    color: white;
+
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    color: red;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(50, 50, 50);
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content :hover {
+    background-color: rgb(79, 78, 78);
+}
+
+.show {
+    display: block;
+}
+
+.section-right {
+    width: inherit;;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid white;
+}
+
+.section-right-p {
+    color: white;
+    font-size: 13px;
+    width: 490px;
+    padding-top: 20px;
+    margin: 0px;
+    padding-left: 10px;
+    border-radius: 10px 10px 0px 00px;
+    box-sizing: border-box;
+}
+
+.section-right-content {
+    width: 490px;
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-color: rgba(21, 20, 20, 0.345) rgb(80, 80, 80);
+    
+}
+
+.content-container {
+    gap: 10px;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.content-container-image {
+    width: 140px;
+    height: 100px;
+    background-color: red;
+    background-image: url(/Demon\ slayer\ tanjiro\ wallpaper\ 1920x1080\ laptop\ desktop\ 4k\ hd\ wpp\ 🎀.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.content-container-text {
+    width: 200px;
+    height: 100px;
+    color: white;
+    padding-top: 50px;
+}
+
+.rating-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0px;
+    gap: 5px;
+}
+
+.rating-container p{
+    background-color: rgb(50, 50, 50); border-radius: 5px;font-size: 9px; width: inherit;text-align: center;padding: 2px;
+}
+.text-block {
+    position: absolute;
+    bottom: 60px;
+    right: 200px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.text-block p:hover {
+    color: red;
+    transition: all 200ms ease-in;
+}
+
+.icon-block {
+    gap: 15px;
+    display: flex;
+    position: absolute;
+    bottom: 70px;
+    right: 550px;
+    background-color: transparent;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+.icon-block i:hover {
+    color: red;
+    transition: all 200ms ease-in;
+}

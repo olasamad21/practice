@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Wallet</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+
+    </style>
+</head>
+
+<body class="walletbody">
+
+    <div class="topnav" id="myTopnav">
+        <a href="/html/index.html" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact">About</a>
+        <a href="#about" class="search-container">
+            <div>
+                <input type="text" placeholder="" required>
+                <i class='bx bx-search'></i>
+            </div>
+        </a>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+
+    <!-- <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href=""><i class="fa-brands fa-google-wallet fa-2x"></i></a>
+            </li>
+            <div class="nav-buttons">
+                <li class="nav-item">
+                    <button class="btn-primary"><a href="signout.html">Home</a></button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-primary"><a href="signout.html">Top anime</a></button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-primary"><a href="signout.html">News</a></button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-primary"><a href="signout.html">Pages</a></button>
+                </li>
+            </div>
+            <div class="nav-right">
+                <div class="input-box">
+                    <input type="text" placeholder="" required>
+                    <i class='bx bx-search'></i>
+                </div>
+                <div class="welcome-text">
+                    <p>Welcome!</p>
+                </div>
+                <li class="nav-item">
+                    <button class="btn-primary signout-btn"><a href="/html/login.html">SignOut</a></button>
+                </li>
+            </div>
+        </ul>
+    </nav> -->
+
+        <!-- <div class="banner"></div> -->
+
+    <div class="section">
+        <div class="first-row">
+            <!-- First row of anime items -->
+            <div class="firstrow-div">
+                <div class="zoom">
+                    <img class="zoom-img" src="/images/1.jpg" alt="">
+                </div>
+                <a href="/html/anime2.html">
+                    <p>Solo leveling</p>
+                </a>
+            </div>
+
+            <div class="firstrow-div">
+                <div class="zoom">
+                    <img class="zoom-img" src="/images/2.jpg" alt="">
+                </div>
+                <a href="/html/anime2.html">
+                    <p>Demon Slayer</p>
+                </a>
+            </div>
+
+            <div class="firstrow-div">
+                <div class="zoom">
+                    <img class="zoom-img" src="/images/3.jpg" alt="">
+                </div>
+                <a href="/html/anime2.html">
+                    <p>Kaiju</p>
+                </a>
+            </div>
+
+            <div class="firstrow-div">
+                <div class="zoom">
+                    <img class="zoom-img" src="/images/4.jpg" alt="">
+                </div>
+                <a href="/html/anime2.html">
+                    <p>Death note</p>
+                </a>
+            </div>
+
+            <div class="firstrow-div">
+                <div class="zoom">
+                    <img class="zoom-img" src="/images/5.jpg" alt="">
+                </div>
+                <a href="/html/anime2.html">
+                    <p>Vinland saga</p>
+                </a>
+            </div>
+
+            <div class="firstrow-div">
+                <div class="zoom">
+                    <img class="zoom-img" src="/images/6.jpg" alt="">
+                </div>
+                <a href="/html/anime2.html">
+                    <p>Fire force</p>
+                </a>
+            </div>
+
+            <div class="firstrow-div">
+                <div class="zoom">
+                    <img class="zoom-img" src="/images/7.jpg" alt="">
+                </div>
+                <a href="/html/anime2.html">
+                    <p>Black Clover</p>
+                </a>
+            </div>
+
+            <div class="firstrow-div">
+                <div class="zoom">
+                    <img class="zoom-img" src="/images/8.jpg" alt="">
+                </div>
+                <a href="/html/anime2.html">
+                    <p>AS.classroom</p>
+                </a>
+            </div>
+
+            <div class="firstrow-div">
+                <div class="zoom">
+                    <img class="zoom-img" src="/images/9.jpg" alt="">
+                </div>
+                <a href="/html/anime2.html">
+                    <p>Koruko B.</p>
+                </a>
+            </div>
+
+            <div class="firstrow-div">
+                <div class="zoom">
+                    <img class="zoom-img" src="/images/10.jpg" alt="">
+                </div>
+                <a href="/html/anime2.html">
+                    <p>A.O.T</p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;width: 100%;height: 60px; background-color: rgb(27, 27, 27); color: white;">
+            <div style="display: flex; padding: 5px 0px 0px 40px">
+                <a style="font-size: 25px; color: white;" href=""><i class="footer-icon fa-brands fa-google-wallet fa-2x"></i></a>
+                <h1 style="position: relative;top: 3PX; left:5px; font-size: 18px;">MY ANIME</h1>
+                <h1 style="position: relative;top: 25PX;left: -80px; font-size: 8px;">...no coprywrite</h1>
+            </div>
+
+            <div style="display: flex; justify-content: center; align-items: center;gap: 10px; margin-right: 10px;">
+                <a  style="font-size: 17px; color: white; text-decoration: none;" href="">Myanime.com</a>
+                <p>contact/bug report</p>
+            </div>
+            
+        </div>
+    </footer>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
